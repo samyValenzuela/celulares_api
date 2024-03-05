@@ -1,9 +1,21 @@
 <?php
 $celular1 = [
     "marca" => "",
-    "modelo" => ,
-    "" => ),
-    "peso" => ,
+    "modelo" =>"" ,
+    "color" => "",
+    "capacidad"=>"",
+    "peso" =>"" ,
+    "altura"=>"",
+    "ancho"=>"",
+    "grosor"=>"",
+    "camara"=>"",
+    "face id"=>"",
+    "gps"=>"",
+    "asistende de voz"=>"",
+    "resistente al agua"=>"",
+    
+    
+    
 ];
 
 $celular2 = [
