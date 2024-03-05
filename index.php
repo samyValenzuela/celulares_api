@@ -1,5 +1,4 @@
 <?php
-// Agregamos los objetos
 $person1 = [
     "nombre" => "Persona 1",
     "edad" => rand(18, 80),
