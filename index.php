@@ -1,21 +1,25 @@
 <?php
 $celular1 = [
-    "marca" => "",
-    "modelo" =>"" ,
-    "color" => "",
-    "capacidad"=>"",
-    "peso" =>"" ,
-    "altura"=>"",
-    "ancho"=>"",
-    "grosor"=>"",
-    "camara"=>"",
-    "face id"=>"",
-    "gps"=>"",
-    "asistende de voz"=>"",
-    "resistente al agua"=>"",
-    
-    
-    
+    "marca" => "iPhone",
+    "modelo" =>"iPhone 11" ,
+    "color" => "negro",
+    "sistema operativo"=>"iOS",
+    "capacidad de gb"=>"64",
+    "pantalla touch en pulgadas"=>6.1,
+    "peso en gramos" =>194 ,
+    "altura cm"=>15.09,
+    "ancho cm"=7.57",
+    "grosor cm"=>.83,
+    "camara"=>"12 mpx",
+    "face id"=>(true),
+    "gps"=>(true),
+    "asistende de voz"=>"Siri",
+    "resistente al agua"=>(true),
+    "duracion de bateria"=>"15 horas",
+    "reproduccion de video"=>"17 horas",
+    "reproduccion de audio"=>"65 horas",
+    "iOS"=>"15", 
+    "carga rapida"=>"hasta 50% en 30 minutos",
 ];
 
 $celular2 = [
@@ -25,26 +29,11 @@ $celular2 = [
     "peso" => rand(50, 120),
 ];
 
-$celularn3 = [
-    "nombre" => "Persona 3",
-    "edad" => rand(18, 80),
-    "altura" => rand(150, 200),
-    "peso" => rand(50, 120),
-];
 
-$celular4 = [
-    "nombre" => "Persona 4",
-    "edad" => rand(18, 80),
-    "altura" => rand(150, 200),
-    "peso" => rand(50, 120),
-
-    ];
     
     $celular = [
         $celular1,
         $celular2,
-        $celular3,
-        $celular4,
 ];
 
 $celular_by_modelo = [];
