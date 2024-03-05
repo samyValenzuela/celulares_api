@@ -1,54 +1,54 @@
 <?php
-$person1 = [
-    "nombre" => "Persona 1",
-    "edad" => rand(18, 80),
-    "altura" => rand(150, 200),
-    "peso" => rand(50, 120),
+$celular1 = [
+    "marca" => "",
+    "modelo" => ,
+    "" => ),
+    "peso" => ,
 ];
 
-$person2 = [
+$celular2 = [
     "nombre" => "Persona 2",
     "edad" => rand(18, 80),
     "altura" => rand(150, 200),
     "peso" => rand(50, 120),
 ];
 
-$person3 = [
+$celularn3 = [
     "nombre" => "Persona 3",
     "edad" => rand(18, 80),
     "altura" => rand(150, 200),
     "peso" => rand(50, 120),
 ];
 
-$person4 = [
+$celular4 = [
     "nombre" => "Persona 4",
     "edad" => rand(18, 80),
     "altura" => rand(150, 200),
     "peso" => rand(50, 120),
 
+    ];
+    
+    $celular = [
+        $celular1,
+        $celular2,
+        $celular3,
+        $celular4,
 ];
 
-$people = [
-    $person1,
-    $person2,
-    $person3,
-    $person4
-];
+$celular_by_modelo = [];
 
-$people_by_name = [];
+foreach ($celular as $celu) {
 
-foreach ($people as $person) {
-
-    $people_by_name[$person["nombre"]] = $person;
+    $people_by_name[$celu["modelo"]] = $celu;
 }
 
 
-if (isset($_GET["nombre"])) {
+if (isset($_GET["modelo"])) {
   
-    $name = $_GET["nombre"];
+    $model = $_GET["modelo"];
  
-    echo json_encode($people_by_name[$name]);
+    echo json_encode($celular_by_modelo[$model]);
 } else {
 
-    echo json_encode($people);
+    echo json_encode($celular);
 }
