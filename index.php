@@ -3,6 +3,7 @@ $celular1 = [
     "marca" => "iPhone",
     "modelo" =>"iPhone 11" ,
     "color" => "negro",
+    "precio=>10499,
     "sistema operativo"=>"iOS",
     "capacidad de gb"=>64,
     "pantalla touch en pulgadas"=>6.1,
