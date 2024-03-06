@@ -24,10 +24,27 @@ $celular1 = [
 ];
 
 $celular2 = [
-    "nombre" => "Persona 2",
-    "edad" => rand(18, 80),
-    "altura" => rand(150, 200),
-    "peso" => rand(50, 120),
+    "marca" => "Samsung",
+    "modelo" =>"s23 ultra" ,
+    "color" => "Lavanda",
+    "precio"=>30999,
+    "sistema operativo"=>"Android",
+    "capacidad de gb"=>512,
+    "pantalla touch en pulgadas"=>6,8,
+    "peso en gramos" => ,
+    "altura mm"=>163.4,
+    "ancho mm"=78.1,
+    "grosor mm"=>8.9,
+    "camara"=>"200 MP",
+    "face id"=>(true),
+    "gps"=>(true),
+    "asistende de voz"=>"Bixby",
+    "resistente al agua"=>(true),
+    "duracion de bateria"=>"10 horas",
+    "reproduccion de video"=>"27 horas",
+    "reproduccion de audio"=>"71 horas",
+    "Android"=>"13 One Ul 5.1", 
+    "carga rapida"=>"1 hora y 10 minutos para el 99%",
 ];
 
 
