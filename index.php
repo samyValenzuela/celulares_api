@@ -58,7 +58,7 @@ $celular_by_modelo = [];
 
 foreach ($celular as $celu) {
 
-    $people_by_name[$celu["modelo"]] = $celu;
+    $celulat_by_modelo[$celu["modelo"]] = $celu;
 }
 
 
